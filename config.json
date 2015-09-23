@@ -1,0 +1,25 @@
+{
+    "tools": {
+        "makecert": "<path_to>\\MakeCert.exe",
+        "pvk2pfx": "<path_to>\\pvk2pfx.exe",
+        "vsixsigntool": "<path_to>\\vsixsigntool.exe"
+    },
+
+    "packages": [
+        {
+            "name": "VS_Extensibility_TemplatesV1",
+            "vsix": "<path_to_installer_root>\\OfflineCache\\installers\\VS_Extensibility_TemplatesV1\\en\\0\\Microsoft.Vsix.TemplatesPackage.vsix",
+            "cache": "<path_to_installer_root>\\OfflineCache\\installers\\VS_Extensibility_TemplatesV1\\cache.bin"
+        },
+        {
+            "name": "GitHubVSV1",
+            "vsix": "<path_to_installer_root>\\OfflineCache\\installers\\GitHubVSV1\\en\\0\\GitHub.VisualStudio.vsix",
+            "cache": "<path_to_installer_root>\\OfflineCache\\installers\\GitHubVSV1\\cache.bin"
+        },
+        {
+            "name": "PowerShellToolsV1",
+            "vsix": "<path_to_installer_root>\\OfflineCache\\installers\\PowerShellToolsV1\\en\\0\\PowerShellTools.14.0.vsix",
+            "cache": "<path_to_installer_root>\\OfflineCache\\installers\\PowerShellToolsV1\\cache.bin"
+        }
+    ]
+}
